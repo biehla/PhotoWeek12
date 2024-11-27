@@ -1,0 +1,4 @@
+# .prettierrc
+plugins: [prettier-plugin-tailwindcss]
+tailwindStylesheet: ./tailwind.css
+tailwindConfig: ./tailwind.config.js

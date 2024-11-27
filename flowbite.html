@@ -1,0 +1,448 @@
+<!doctype html>
+<html class="scroll-smooth bg-black">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link href="tailwind.css" rel="stylesheet"> -->
+    <!-- <style type="text/css" src="tailwind.css"></style> -->
+    <title>Authenticity and Manipulation in Digital Photography</title>
+  </head>
+  <body>
+      
+    <section
+      class="flex justify-center gap-2.5 overflow-hidden overflow-x-auto bg-white bg-opacity-10 px-32 max-md:px-5"
+      role="main"
+      aria-label="Main content section"
+    >
+      <article class="flex min-w-[420px] flex-col bg-gray-900">
+    <div>
+      <div
+        class="flex w-full items-center gap-8 bg-emerald-900 p-4 text-4xl font-bold max-md:max-w-full"
+      >
+        <h1
+          class="my-auto min-w-[240px] gap-3 self-stretch px-7 max-md:max-w-full flex w-full flex-col text-white"
+        >
+          Anand Biehl's Week 12 Website
+        </h1>
+      </div>
+      <nav
+        class="flex w-full items-center gap-8 bg-emerald-700 p-3 text-center text-sm font-medium max-md:max-w-full sticky top-0    flex w-full flex-col text-white"
+        role="navigation"
+        aria-label="Main navigation"
+      >
+        <ul
+          class="my-auto flex w-full min-w-[240px] flex-1 shrink basis-0 flex-wrap items-center gap-3 self-stretch max-md:max-w-full"
+        >
+          <li>
+            <a
+              href="#van-dijck"
+              class="px-7 py-2 hover:rounded-xl hover:bg-emerald-800 hover:underline focus:outline-none focus:ring-2 focus:ring-white"
+              >Van Dijck: Digital photography</a
+            >
+          </li>
+          <li>
+            <a
+              href="#photo-society"
+              class="p-2 px-7 hover:rounded-xl hover:bg-emerald-800 hover:underline focus:outline-none focus:ring-2 focus:ring-white"
+              >Photography and Society</a
+            >
+          </li>
+          <li>
+            <a
+              href="#photo-editing"
+              class="p-2 px-7 hover:rounded-xl hover:bg-emerald-800 hover:underline focus:outline-none focus:ring-2 focus:ring-white"
+              >Photo Editing</a
+            >
+          </li>
+          <li>
+            <a
+              href="#forensics"
+              class="p-2 px-7 hover:rounded-xl hover:bg-emerald-800 hover:underline focus:outline-none focus:ring-2 focus:ring-white"
+              >Forensic Analysis</a
+            >
+          </li>
+          <li>
+            <a
+              href="#journalism"
+              class="p-2 px-7 hover:rounded-xl hover:bg-emerald-800 hover:underline focus:outline-none focus:ring-2 focus:ring-white"
+              >Photography and Journalism</a
+            >
+          </li>
+          <li>
+            <a
+              href="#fake-news"
+              class="p-2 px-7 hover:rounded-xl hover:bg-emerald-800 hover:underline focus:outline-none focus:ring-2 focus:ring-white"
+              >Fake News and Pictures</a
+            >
+          </li>
+          <li>
+            <a
+              href="#conclusion"
+              class="p-2 px-7 hover:rounded-xl hover:bg-emerald-800 hover:underline focus:outline-none focus:ring-2 focus:ring-white"
+              >Conclusion</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+<!--         <header class="flex w-full flex-col text-white max-md:max-w-full">
+          <div
+            class="flex w-full items-center gap-8 bg-emerald-900 p-4 text-4xl font-bold max-md:max-w-full"
+          >
+            <h1
+              class="my-auto min-w-[240px] gap-3 self-stretch px-7 max-md:max-w-full"
+            >
+              Anand Biehl's Week 12 Website
+            </h1>
+          </div>
+          <nav
+            class="flex w-full items-center gap-8 bg-emerald-700 p-3 text-center text-sm font-medium max-md:max-w-full"
+            role="navigation"
+            aria-label="Main navigation"
+          >
+            <ul
+              class="my-auto flex w-full min-w-[240px] flex-1 shrink basis-0 flex-wrap items-center gap-3 self-stretch max-md:max-w-full"
+            >
+              <li>
+                <a
+                  href="#van-dijck"
+                  class="px-7 py-2 hover:rounded-xl hover:bg-emerald-800 hover:underline focus:outline-none focus:ring-2 focus:ring-white"
+                  >Van Dijck: Digital photography</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#photo-society"
+                  class="p-2 px-7 hover:rounded-xl hover:bg-emerald-800 hover:underline focus:outline-none focus:ring-2 focus:ring-white"
+                  >Photography and Society</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#photo-editing"
+                  class="p-2 px-7 hover:rounded-xl hover:bg-emerald-800 hover:underline focus:outline-none focus:ring-2 focus:ring-white"
+                  >Photo Editing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#forensics"
+                  class="p-2 px-7 hover:rounded-xl hover:bg-emerald-800 hover:underline focus:outline-none focus:ring-2 focus:ring-white"
+                  >Forensic Analysis</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#journalism"
+                  class="p-2 px-7 hover:rounded-xl hover:bg-emerald-800 hover:underline focus:outline-none focus:ring-2 focus:ring-white"
+                  >Photography and Journalism</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#fake-news"
+                  class="p-2 px-7 hover:rounded-xl hover:bg-emerald-800 hover:underline focus:outline-none focus:ring-2 focus:ring-white"
+                  >Fake News and Pictures</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#conclusion"
+                  class="p-2 px-7 hover:rounded-xl hover:bg-emerald-800 hover:underline focus:outline-none focus:ring-2 focus:ring-white"
+                  >Conclusion</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header> -->
+
+        <main
+          class="mt-24 flex w-[1329px] max-w-full flex-1 flex-col self-center overflow-hidden max-md:mt-10"
+        >
+          <h2
+            class="w-full py-4 text-center text-4xl font-bold text-white max-md:max-w-full"
+          >
+            Authenticity and Manipulation in Digital Photography:
+          </h2>
+          <h3
+            class="w-full py-4 text-center text-3xl font-bold text-white max-md:max-w-full"
+          >
+          Providing the Truth in an Era of Misinformation
+          </h3>
+
+          <section
+            class="mt-5 flex w-full flex-col items-center justify-center p-2.5 font-normal text-white max-md:mt-10 max-md:max-w-full"
+          >
+            <p class="max-w-prose">
+              In an era where everyone has a camera in their pocket and social media provides instant access to audiences, the integrity of digital photography is increasingly challenged. This discussion dives into several aspects of digital photography, from the changing role of personal photography to the methods available to detect digital manipulation. We explore Van Dijck's perspective on digital photography, the implications of photo editing, and the challenges faced by journalists in the face of such evolving technologies.
+            </p>
+          </section>
+
+          <section
+            id="van-dijck"
+            class="mt-20 flex w-full flex-col items-center justify-center p-2.5 font-semibold text-white max-md:mt-10 max-md:max-w-full"
+            aria-labelledby="van-dijck-title"
+          >
+            <h3 id="van-dijck-title" class="text-3xl">Van Dijck</h3>
+            <p class="mt-2.5 text-2xl font-normal max-md:max-w-full">
+              Digital Photography: communication, identity, memory
+            </p>
+          </section>
+
+          <section
+            class="mt-5 flex w-full flex-col items-center justify-center p-2.5 font-normal text-white max-md:mt-10 max-md:max-w-full"
+          >
+            <p class="max-w-prose">
+              According to Van Dijck, digital photography is primarily autobiographical. It has become a way for individuals to document and share their lives, often selectively curating their experiences. However, this analysis may miss a broader purpose that has always existed. Even before the digital age, personal photography was commonly used to show off, to share only the most captivating experiences and views. The difference now lies in the sheer number of attempts allowed by digital cameras to get that perfect shot, but even an analog camera relied on the photographer's choices: film type, aperture, and composition all shaped the final outcome. These choices were reflections of the photographer's intent, making personal photography a deeply subjective art form regardless of the technology used.
+            </p>
+            <a href="https://commons.wikimedia.org/wiki/File:KODAK_Slide_projector.jpg" class="py-10">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Kodak_Carousel_4400_projector_with_140-slide_tray.jpg" class="max-w-prose px-10" alt="An old slide based carousel projector (W.CC)">
+              <p class="text-center italic font-medium p-3">An old slide based carousel projector (W.CC)</p>
+            </a>
+            <p class="max-w-prose">
+              The very nature of photography has always been shaped by the person behind the camera, and the transition to digital tools has only expanded the potential for customization and re-contextualization. With infinite tries available, digital cameras may seem to distort reality more, but the result is still contingent on the decisions made by the photographer. Thus, while Van Dijck is right about the identity-formulating aspect of photography, the selective sharing aspect was never absent. Digitization has simply made it far more pervasive.
+            </p>
+          </section>
+
+          <section
+            id="photography-roll"
+            class="mt-20 flex w-full flex-col items-center justify-center p-2.5 font-semibold text-white max-md:mt-10 max-md:max-w-full"
+            aria-labelledby="photo-editing-title"
+          >
+            <h3 id="photo-society" class="text-3xl max-w-3xl text-center">How Digital Technology Has Changed the Role of Photography in Society</h3>
+          </section>
+          <section
+            class="mt-5 flex w-full flex-col items-center justify-center p-2.5 font-normal text-white max-md:mt-10 max-md:max-w-full "
+          >
+            <p class="max-w-prose">
+              Photography has undergone significant changes over the last 50 years, evolving alongside advancements in technology. We have transitioned from traditional film DSLRs in homes to film point-and-shoot cameras carried around in belt holsters. These were replaced by early digital DSLRs, followed by pocketable digital point-and-shoot cameras. Then came PDAs and camera phones, which eventually evolved into feature phones and devices like Blackberries. This was a period when photo sharing became a daily activity, facilitated by MMS (since SMS couldn't handle media sharing).
+            </p>
+            <a href="https://iceland-photo-tours.com/articles/landscape-and-nature-photography/a-brief-history-of-photography" class="py-10">
+              <img src="https://ipt.images.tshiftcdn.com/206697/x/0/seanensch-historyphotography-01.jpg" class="max-w-prose px-10" alt="An old slide based carousel projector (W.CC)">
+              <p class="text-center italic font-medium p-3">History of photography timeline. Photo by: 'Sean Ensch'.</p>
+            </a>
+            <a class="py-10">
+              <img src="./roadtrip.JPG" class="max-w-prose px-10" alt="An old slide based carousel projector (W.CC)">
+              <p class="text-center italic font-medium p-3">Photograph taken on a road trip to Salzberg, Austria. Photo By: Markus Biehl (film)</p>
+            </a>
+            <p class="max-w-prose">
+              The real turning point, however, came with the advent of smartphones like the iPhone. Early smartphones incorporated cameras with internet connectivity and social media compatibility, making it incredibly easy to take a photograph and instantly share it. The evolution of digital photography has enabled people to communicate their daily lives, curate their identities, and even promote specific narratives.
+            </p>
+            <a href="./Oat Meal Baba.jpg" class="py-10">
+              <img src="./Oat Meal Baba.jpg" class="max-w-prose px-10" alt="Image of my mother feeding me oatmeal as a five month old baby">
+              <p class="text-center italic font-medium p-3">Oat Meal Baba. Photo By: Markus Biehl. Taken on an early digital camera.</p>
+            </a>
+            <a href="./impact.jpg" class="py-10">
+              <img src="./impact.jpg" class="max-w-prose px-10" alt="Image of Moment of Impact of Aerated Congrete Domino Blocks">
+              <p class="text-center italic font-medium p-3">Impact. Photo By: Anand Biehl. Taken on modern Nikon DSLR with 18-55mm GII Lens</p>
+            </a>            
+            <p class="max-w-prose">
+              The internet has changed the way people use photography. Images now serve not only as personal memories but also as a form of social currency, contributing to how individuals present themselves to the world. Photography's role has expanded beyond private storytelling; it is now an essential element of online communication, influencing relationships, social status, and public discourse.
+            </p>
+            <div class="text-center items-center py-10">
+              <a href="./tulip.jpg" class="py-10">
+                <img src="./tulip.jpg" class="max-w-prose px-10" alt="Image of Moment of Impact of Aerated Congrete Domino Blocks">
+              </a>
+
+            </div>
+                <p class="text-center italic font-medium max-w-prose" style="padding-bottom: 40px;">Tulip (Ottawa, Tulip Festival). Photo By: Anand Biehl. Taken on mid-range OnePlus smartphone, 2024</p>
+          </section>
+
+          <section
+            id="photo-editing"
+            class="mt-20 flex w-full flex-col items-center justify-center p-2.5 font-semibold text-white max-md:mt-10 max-md:max-w-full"
+            aria-labelledby="photo-editing-title"
+          >
+            <h3 id="photo-editing-title" class="text-3xl">Photo Editing:</h3>
+            <p class="mt-2.5 text-2xl font-normal max-md:max-w-full">
+              A Source of Authenticity Issues
+            </p>
+          </section>
+
+          <section
+            class="mt-5 flex w-full flex-col items-center justify-center p-2.5 font-normal text-white max-md:mt-10 max-md:max-w-full "
+          >
+            <p class="max-w-prose">
+              Photo editing has become ubiquitous and accessible to anyone with a smartphone. It ranges from subtle adjustments like brightness or contrast, to major alterations that completely transform an image's content. A pertinent example is when a photo taken in a dorm setting is edited to include beer bottles on the floor, creating an impression of a party scene that never existed. Such manipulations can have real consequences for the individuals in the photos, misrepresenting them and tarnishing their reputation.
+            </p>
+            
+            <div class="text-center items-center py-10">
+              <a href="./Stars Developed.jpg" class="py-10">
+                <img src="./Stars Developed.jpg" class="max-w-prose px-10" alt="Stars (developed). Photo By: Anand Biehl. Taken on modern Nikon DSLR with 18-55mm GII Lens">
+              </a>
+            </div>
+            <p class="text-center italic font-medium max-w-prose" style="padding-bottom: 40px;">Stars (developed). Photo By: Anand Biehl. Taken on modern Nikon DSLR with 18-55mm GII Lens</p>
+            
+            <p class="max-w-prose">
+              The consequences of these edits can be damaging, and it raises the question: what would you do if you were in that photo? Most people might feel frustrated or even violated by the alteration of their image. Proving the inauthenticity of such an image becomes crucial, not just to restore personal reputation but also to address the broader implications of misinformation and manipulation.
+            </p>
+
+            <div class="text-center items-center py-10">
+              <a href="./Stars Edited.png" class="py-10">
+                <img src="./Stars Edited.png" class="max-w-prose px-10" alt="Stars (edited). Photo By: Anand Biehl. Taken on modern Nikon DSLR with 18-55mm GII Lens">
+              </a>
+            </div>
+            <p class="text-center italic font-medium max-w-prose" style="padding-bottom: 40px;">Stars (edited). Photo By: Anand Biehl. Taken on modern Nikon DSLR with 18-55mm GII Lens</p>
+          </section>
+
+          <section
+            id="forensics"
+            class="mt-20 flex w-full flex-col items-center justify-center p-2.5 font-semibold text-white max-md:mt-10 max-md:max-w-full"
+            aria-labelledby="forensic-title"
+          >
+            <h3 id="forensic-title" class="text-3xl">Forensic Analysis</h3>
+            <div class="font-normal">
+              <p class="max-w-prose" style="padding-top: 1.75rem;">
+                The solution to counter manipulative edits lies in forensic analysis. Digital forensic tools can analyze the pixel densities and compression artifacts within a photograph to reveal inconsistencies, allowing experts to prove whether an image has been manipulated. In manipulated digital images, artifacts like pixel density ratios or lighting inconsistencies can often give away the alterations. It is now fairly elementary for these tools to detect if and where tampering has occurred, even when dealing with artificial intelligence-generated imagery.
+              </p>
+
+              <div class="text-center items-center py-10">
+                <a href="./longboard-real.jpg" class="py-10">
+                  <img src="./longboard-real.jpg" class="max-w-prose px-10" alt="Picture of a man jumping above a longboard">
+                </a>
+              </div>
+              <p class="text-center italic font-medium max-w-prose" style="padding-bottom: 40px;">Longboard (unedited). Photo By: Anand Biehl. Uknown Camera.</p>
+
+              <p class="max-w-prose">
+                However, the story changes when we look at analog photos that have been scanned and then edited. A skilled analog photo editor can make it challenging to detect these changes, as the editing traces are subtler compared to a digital native image. Once an analog image is scanned into a digital format, it loses some of the characteristics that forensic tools typically rely upon for accurate detection, complicating authenticity analysis.
+              </p>
+
+              <div class="text-center items-center py-10">
+                <a href="./longboard-edited.jpg" class="py-10">
+                  <img src="./longboard-edited.jpg" class="max-w-prose px-10" alt="Picture of a man jumping above a longboard">
+                </a>
+              </div>
+              <p class="text-center italic font-medium max-w-prose" style="padding-bottom: 40px;">Longboard (edited). Photo By: Anand Biehl. Uknown Camera.</p>
+
+              <p class="max-w-prose">
+                Phone users who apply color filters are usually also not the ones making reality-bending edits (except for face filters). For more sophisticated edits, a better sensor that can output raw format sensor data is often used, as this makes editing easier and more flexible.
+              </p>
+
+              <div class="text-center items-center py-10">
+                <a href="./forensics-longboard-real.png" class="py-10">
+                  <img src="./forensics-longboard-real.png" class="max-w-prose px-10" alt="Error Level Analysis Showing Original Photo Before Edit">
+                </a>
+              </div>
+              <p class="text-center italic font-medium max-w-prose" style="padding-bottom: 40px;">Error Level Analysis Showing Original Photo Before Edit. Notice the consistant light levels and surfaces.</p>
+
+              
+              <p class="max-w-prose">
+                Filters contribute to a distorted version of reality that may not necessarily reflect an honest experience. This distortion, however, is not an entirely new phenomenon; it existed in analog photography too, where photographers would carefully choose film types for their particular "feel" and manipulate the composition to get the desired effect. Today, digital filters just make these changes faster, more accessible, and applicable even after the photo has been taken.
+              </p>
+
+              <div class="text-center items-center py-10">
+                <a href="./forensics-longboard-fake.png" class="py-10">
+                  <img src="./forensics-longboard-fake.png" class="max-w-prose px-10" alt="Error Level Analysis Showing Photo After Edit">
+                </a>
+              </div>
+              <p class="text-center italic font-medium max-w-prose" style="padding-bottom: 40px;">Error Level Analysis Showing Photo After Edit. Notice the inconsistancy between the unedited background and the edited person and longboard. Can you find the last edit?</p>
+
+              <p class="max-w-prose">
+                While filters are a great way for the modern photographer to customize their image, real (not instant filter-type) photo manipulation is also harder than Van Dijck makes it sound. He claims that it can be done by anyone with a computer and the ability to follow instructions, but to pull it off convincingly and in a way that would be hard to detect still requires years of practice and skill. On top of being really good at Photoshop, you also need a firm understanding of lighting, different camera technologies, color theory, and, to escape detection, a lot of incredibly technical knowledge.
+              </p>
+              </div>
+            <div
+              class="mt-9 flex w-[458px] max-w-full flex-col justify-center whitespace-nowrap py-3.5 text-4xl font-bold text-black"
+            >
+            </div>
+          </section>
+
+          <section
+            id="photography-roll"
+            class="mt-20 flex w-full flex-col items-center justify-center p-2.5 font-semibold text-white max-md:mt-10 max-md:max-w-full"
+            aria-labelledby="photo-editing-title"
+          >
+            <h3 id="journalism" class="text-3xl max-w-3xl text-center">The Impact of Digital Photography on Journalism</h3>
+          </section>
+
+          <section
+            class="mt-5 flex w-full flex-col items-center justify-center p-2.5 font-normal text-white max-md:mt-10 max-md:max-w-full"
+          >
+            <p class="max-w-prose">
+              The impact of digital photography on journalism has been transformative. The immediacy of digital technology allows for real-time reporting, giving journalists the ability to capture and disseminate events as they unfold. However, this also brings challenges. The ability to manipulate images means that journalistic integrity is more at risk than ever. Journalists must navigate the ethical dilemma of presenting compelling images while ensuring that they remain truthful and unaltered.
+            </p>
+            <p class="max-w-prose">
+              The rise of citizen journalism further complicates the situation. Anyone with a smartphone can take a photo and share it with a global audience, blurring the lines between professional journalism and amateur reporting. This democratization of content has positive aspects, such as providing new perspectives and on-the-ground coverage, but it also raises the risk of misinformation spreading unchecked.
+            </p>
+          </section>
+
+          <section
+            id="fake-news"
+            class="mt-20 flex w-full flex-col items-center justify-center p-2.5 font-semibold text-white max-md:mt-10 max-md:max-w-full"
+            aria-labelledby="photo-editing-title"
+          >
+            <h3 id="photo-editing-title" class="text-3xl max-w-3xl text-center">Fake Photographs, Fake News, and the Role of News Media</h3>
+          </section>
+
+          <section
+            class="mt-5 flex w-full flex-col items-center justify-center p-2.5 font-normal text-white max-md:mt-10 max-md:max-w-full"
+          >
+            <p class="max-w-prose">
+              The rise of fake photographs and fake news has become a significant issue in the digital age. Users of social media, who are often not bound by any codes of ethics, can easily share manipulated images that go viral, spreading misinformation. This presents a substantial challenge for news media organizations that must now compete with these misleading narratives while maintaining credibility.
+            </p>
+            <p class="max-w-prose">
+              News media must play an active role in protecting audiences from fake photos and fake news. This can be achieved through several strategies:
+              <ul class="list-disc p-5 max-w-xl">
+                <li class="max-w-prose px-3"><p class="font-bold">Fact-Checking:</p><p>
+                  News organizations need to invest in rigorous fact-checking processes and use forensic tools to verify the authenticity of images before publishing them.
+                </p></li>
+                <li class="max-w-prose px-3"><p class="font-bold">Education:</p><p>
+                  Educating the public about the risks of misinformation and how to recognize manipulated images can empower audiences to be more critical of the content they consume.
+                </p></li>
+                <li class="max-w-prose px-3"><p class="font-bold">Collaborative Efforts:</p><p>
+                  Collaboration between technology companies, social media platforms, and news organizations is crucial to develop systems that can automatically flag potentially fake content.
+                </p></li>
+              </ul>
+            </p>
+            <p class="max-w-prose">
+              It is both a responsibility and a necessity for news media to protect their audiences from the damage that misinformation can cause. This responsibility extends beyond their own publications to addressing the broader ecosystem in which news is consumed and shared. Journalism departments would do well to hire forensic and internet experts to help rule out fake news and photo manipulations. Currently, if an article appears in a newspaper, it often gets shared by other newspapers without much scrutiny. This is a huge problem, as it only takes one media outlet to make a mistake for a story to spread and go viral.
+            </p>
+          </section>
+
+          <section
+            id="fake-news"
+            class="mt-20 flex w-full flex-col items-center justify-center p-2.5 font-semibold text-white max-md:mt-10 max-md:max-w-full"
+            aria-labelledby="van-dijck-title"
+          >
+            <h3 id="conclusion" class="text-3xl">Conclusion:</h3>
+            <p class="mt-2.5 text-2xl font-normal max-md:max-w-full">
+              Evolution, Not Revolution
+            </p>
+          </section>
+
+          <section
+            class="mt-5 flex w-full flex-col items-center justify-center p-2.5 font-normal text-white max-md:mt-10 max-md:max-w-full"
+            style="margin-bottom: 10rem;"
+          >
+            <p class="max-w-prose">
+              While digital technology has changed how we take, edit, and share photographs, it has not fundamentally altered the nature of personal photography. The essence of selectively sharing beautiful, exciting moments was always present. Digitization has simply amplified it and brought the practice into the public eye on an unprecedented scale. What has changed, however, is the ease with which photos can be manipulated and the ethical dilemmas posed by these possibilities—especially when authenticity is at stake.
+            </p>
+            <p class="max-w-prose">
+              We must be vigilant about the tools available, both for manipulation and for forensic analysis, in order to navigate a world where digital photos shape both personal narratives and public perception. Whether it’s to prove one’s innocence against manipulated accusations or to ensure journalistic integrity, the battle for authenticity in digital photography remains a critical challenge of our time.
+            </p>
+          </section>
+
+        </main>
+      </article>
+    </section>
+    </section>
+
+
+    <script>
+      function switchImage(thumbnailImg) {
+        const mainImg = document.getElementById("mainImage");
+        const mainSrc = mainImg.src;
+        const mainAlt = mainImg.alt;
+
+        mainImg.src = thumbnailImg.src;
+        mainImg.alt = thumbnailImg.alt;
+
+        thumbnailImg.src = mainSrc;
+        thumbnailImg.alt = mainAlt;
+
+        mainImg.focus();
+      }
+    </script>
+  </body>
+</html>
